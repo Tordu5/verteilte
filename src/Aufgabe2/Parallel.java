@@ -19,7 +19,7 @@ public class Parallel {
 
     public void calculate(){
         Thread thread = new Thread(new Tier1Calculation(A,revB,C,sema));
-        thread.run();
+        thread.start();
         try {
             thread.join();
         } catch (InterruptedException e) {

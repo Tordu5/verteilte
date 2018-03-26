@@ -8,7 +8,9 @@ public class Master {
     public static void main(String[] args){
 
         Master master = new Master();
-        master.compare(22,12);
+        master.compare(13,7);
+
+
 
     }
 
@@ -115,28 +117,27 @@ public class Master {
                 if (k*2>n){
                     k=n-k;
                 }
-                ArrayList calculations =new ArrayList<Runnable>();
                 if (n==k*2 && optimisation){
-                    Calculate calculate = new Calculate(n-1,k-1);
+                    OptimizedCalculate calculate = new OptimizedCalculate(n-1,k-1);
                     Thread thread =new Thread(calculate);
                     thread.start();
                     try {
-
                         thread.join();
                         result = calculate.getResult()*2;
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
                 } else {
-                    calculations.add(new Calculate(n-1,k-1));
-                    calculations.add(new Calculate(n-1,k));
+                    ArrayList calculations =new ArrayList<OptimizedCalculate>();
+                    calculations.add(new OptimizedCalculate(n-1,k-1));
+                    calculations.add(new OptimizedCalculate(n-1,k));
 
                     calculations.parallelStream().forEach(calculation ->{
-                        Thread thread =new Thread((Calculate)calculation);
+                        Thread thread =new Thread((OptimizedCalculate)calculation);
                         thread.start();
                         try {
                             thread.join();
-                            result += ((Calculate) calculation).getResult();
+                            result += ((OptimizedCalculate) calculation).getResult();
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }

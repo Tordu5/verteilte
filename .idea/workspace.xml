@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d3deb6e-8472-45d3-9058-334abf7992f5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/Verteilte_Workbench/Verteilte Systeme - Aufgabe 1-3.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Verteilte_Workbench/master/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Verteilte_Workbench/master/MasterWorker.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Verteilte_Workbench/master/MasterWorkerThread.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Verteilte_Workbench/parallel/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Verteilte_Workbench/parallel/ResultatsParallelismus.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Verteilte_Workbench/parallel/ResultatsParallelismusThread.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Aufgabe2/masterWorker.java" afterPath="$PROJECT_DIR$/src/Aufgabe2/masterWorker.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lösung/BinoThread.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lösung/Main.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Verteilte_Workbench/Aufgabe2/Parallel.class" afterPath="$PROJECT_DIR$/out/production/Verteilte_Workbench/Aufgabe2/Parallel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Verteilte_Workbench/Aufgabe3/Master$Calculate.class" afterPath="$PROJECT_DIR$/out/production/Verteilte_Workbench/Aufgabe3/Master$Calculate.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Verteilte_Workbench/Aufgabe3/Master$OptimizedCalculate.class" afterPath="$PROJECT_DIR$/out/production/Verteilte_Workbench/Aufgabe3/Master$OptimizedCalculate.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Verteilte_Workbench/Aufgabe3/Master.class" afterPath="$PROJECT_DIR$/out/production/Verteilte_Workbench/Aufgabe3/Master.class" />
+      <change beforePath="$PROJECT_DIR$/src/Aufgabe2/Parallel.java" afterPath="$PROJECT_DIR$/src/Aufgabe2/Parallel.java" />
       <change beforePath="$PROJECT_DIR$/src/Aufgabe3/Master.java" afterPath="$PROJECT_DIR$/src/Aufgabe3/Master.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,57 +22,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Parallel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Aufgabe2/Parallel.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lösung/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1214">
-              <caret line="70" column="46" lean-forward="false" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
-              <folding>
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="method#getReversedB#0;class#Parallel#0" expanded="false" />
-                <element signature="method#Tier1Calculation#0;class#Tier1Calculation#0;class#Parallel#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Master.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Aufgabe3/Master.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4092">
-              <caret line="126" column="54" lean-forward="true" selection-start-line="126" selection-start-column="54" selection-end-line="126" selection-end-column="54" />
+            <state relative-caret-position="396">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="12" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="masterWorker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Aufgabe2/masterWorker.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Aufgabe3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2178">
-              <caret line="87" column="13" lean-forward="false" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+            <state relative-caret-position="462">
+              <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#Calculation#0;class#masterWorker#0" expanded="false" />
-                <element signature="e#3233#3234#0" expanded="true" />
-                <element signature="e#3270#3271#0" expanded="true" />
-                <element signature="e#3303#3304#0" expanded="true" />
-                <element signature="e#3337#3338#0" expanded="true" />
-                <element signature="e#3376#3377#0" expanded="true" />
-                <element signature="e#3416#3417#0" expanded="true" />
-                <element signature="e#3467#3468#0" expanded="true" />
-                <element signature="e#3525#3526#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Master.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Aufgabe2/Master.java">
+        <entry file="file://$PROJECT_DIR$/src/Aufgabe3/Master.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="934">
+              <caret line="145" column="17" lean-forward="true" selection-start-line="119" selection-start-column="16" selection-end-line="145" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinoThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lösung/BinoThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="931">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -128,9 +115,10 @@
         <option value="$PROJECT_DIR$/src/Aufgabe1_ReferenceUebergabe/CustomThread.java" />
         <option value="$PROJECT_DIR$/src/Aufgabe1/Thread_1.java" />
         <option value="$PROJECT_DIR$/src/Aufgabe2/Master.java" />
-        <option value="$PROJECT_DIR$/src/Aufgabe2/Parallel.java" />
         <option value="$PROJECT_DIR$/src/Aufgabe2/masterWorker.java" />
+        <option value="$PROJECT_DIR$/src/Aufgabe2/Parallel.java" />
         <option value="$PROJECT_DIR$/src/Aufgabe3/Master.java" />
+        <option value="$PROJECT_DIR$/src/Aufgabe3/Main.java" />
       </list>
     </option>
   </component>
@@ -141,8 +129,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="width" value="2567" />
+    <option name="x" value="-12" />
+    <option name="width" value="1522" />
     <option name="height" value="1931" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -189,6 +177,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Aufgabe3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Verteilte_Workbench" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Workbench" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lösung" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -206,6 +200,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Treic\Documents\Studium\WIB5.3 - Verteilte Systeme + Übungen - VL - S18 - (Ammann)\Workbench\src\Lösung" />
       <recent name="C:\Users\Treic\Documents\Studium\WIB5.3 - Verteilte Systeme + Übungen - VL - S18 - (Ammann)\Workbench\src\Aufgabe3\parallel" />
       <recent name="C:\Users\Treic\Documents\Studium\WIB5.3 - Verteilte Systeme + Übungen - VL - S18 - (Ammann)\Workbench\src\Aufgabe3\master" />
     </key>
@@ -229,21 +224,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Master">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="Master (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Aufgabe1_ReferenceUebergabe.*" />
+          <option name="PATTERN" value="Aufgabe3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Aufgabe1_ReferenceUebergabe.Master" />
+      <option name="MAIN_CLASS_NAME" value="Aufgabe3.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -409,16 +404,16 @@
       <item index="0" class="java.lang.String" itemvalue="Application.Master (2)" />
       <item index="1" class="java.lang.String" itemvalue="Application.Parallel" />
       <item index="2" class="java.lang.String" itemvalue="Application.Master" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Master (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.masterWorker" />
+      <item index="3" class="java.lang.String" itemvalue="Application.masterWorker" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Master" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Parallel" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Master (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.masterWorker" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Master (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Master" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Parallel" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Master (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.masterWorker" />
       </list>
     </recent_temporary>
   </component>
@@ -442,12 +437,12 @@
       <workItem from="1521839248193" duration="125000" />
       <workItem from="1521968706822" duration="1361000" />
       <workItem from="1522008257586" duration="3927000" />
-      <workItem from="1522061324135" duration="11230000" />
+      <workItem from="1522061324135" duration="15570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50349000" />
+    <option name="totallyTimeSpent" value="54689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
@@ -462,7 +457,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37730244" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24658348" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47712418" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -498,7 +493,7 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="35" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -507,51 +502,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe1_ReferenceUebergabe/Master.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="72" lean-forward="false" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe2/Master.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe3/Master.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe1_ReferenceUebergabe/CustomThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe2/Parallel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="method#getReversedB#0;class#Parallel#0" expanded="false" />
-            <element signature="method#Tier1Calculation#0;class#Tier1Calculation#0;class#Parallel#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aufgabe2/Master.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1584">
@@ -808,8 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Aufgabe2/Parallel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1214">
-          <caret line="70" column="46" lean-forward="false" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
+        <state relative-caret-position="1023">
+          <caret line="130" column="27" lean-forward="false" selection-start-line="130" selection-start-column="27" selection-end-line="130" selection-end-column="27" />
           <folding>
             <element signature="e#487#488#0" expanded="true" />
             <element signature="e#529#530#0" expanded="true" />
@@ -819,10 +769,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe2/Master.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="424">
+          <caret line="725" column="0" lean-forward="false" selection-start-line="725" selection-start-column="0" selection-end-line="725" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/ThreadGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="907" column="0" lean-forward="false" selection-start-line="907" selection-start-column="0" selection-end-line="907" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -846,11 +804,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe2/Master.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lösung/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aufgabe3/Master.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4092">
-          <caret line="126" column="54" lean-forward="true" selection-start-line="126" selection-start-column="54" selection-end-line="126" selection-end-column="54" />
+        <state relative-caret-position="934">
+          <caret line="145" column="17" lean-forward="true" selection-start-line="119" selection-start-column="16" selection-end-line="145" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lösung/BinoThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe3/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+          <folding>
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
