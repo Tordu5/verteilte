@@ -8,7 +8,7 @@ public class Master {
     public static void main(String[] args){
 
         Master master = new Master();
-        master.compare(26,12);
+        master.compare(22,12);
 
     }
 
@@ -29,7 +29,7 @@ public class Master {
     public void calculate(int n, int k){
         Calculate calculate =new Calculate(n,k);
         Thread thread = new Thread(calculate);
-        thread.run();
+        thread.start();
         try {
             thread.join();
             System.out.println("Result is =     "+ calculate.getResult());
@@ -41,7 +41,7 @@ public class Master {
     public void optimizedCalculate(int n, int k){
         OptimizedCalculate calculate =new OptimizedCalculate(n,k);
         Thread thread = new Thread(calculate);
-        thread.run();
+        thread.start();
         try {
             thread.join();
             System.out.println("Optimized Result is =     "+ calculate.getResult());
@@ -119,7 +119,7 @@ public class Master {
                 if (n==k*2 && optimisation){
                     Calculate calculate = new Calculate(n-1,k-1);
                     Thread thread =new Thread(calculate);
-                    thread.run();
+                    thread.start();
                     try {
 
                         thread.join();

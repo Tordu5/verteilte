@@ -55,7 +55,7 @@ public class masterWorker {
             worker.start();
         }
 
-        workers.forEach(worker -> {
+        workers.parallelStream().forEach(worker -> {
             try {
                 worker.join();
             } catch (InterruptedException e) {
